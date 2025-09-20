@@ -10,7 +10,7 @@ npm install
 ```
 
 
-## Start Worker
+### Start Worker
 
 Example Rack ID: `25d0c2e5-3d14-4975-bddf-b836bdf3842a`
 
@@ -25,13 +25,13 @@ node worker.js --wtype wrk-book-rack \
                --rack $RACK_ID
 ```
 
-## View Status
+### View Status
 
 ```
 cat status/wrk-book-rack-${RACK_ID}.json
 ```
 
-## Docker
+### Docker
 
 ```
 docker build -t wrk-book .
